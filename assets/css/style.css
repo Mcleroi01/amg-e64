@@ -761,12 +761,29 @@ footer {
     padding: 5px 0;
 }
 
+.form input{
+    border-radius: 10px;
+    height: 20px;
+}
+
+.form button{
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+    background: #1a8c59;
+    color: white;
+    padding: 5px;
+}
+
+
 .foot {
     display: flex;
     justify-content: space-between;
     color: #58595c;
     padding: 10px 0;
 }
+
+
 
 
 @media (max-width:480px) {
