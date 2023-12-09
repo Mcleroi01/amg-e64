@@ -124,7 +124,6 @@ body {
 
 .content p {
     font-weight: bolder;
-    text-transform: uppercase;
     font-weight: 900;
     font-size: 0px;
     color: transparent;
@@ -136,7 +135,7 @@ body {
     display: block;
     position: relative;
     overflow: hidden;
-    font-size: clamp(20px, 8vw, 20px);
+    font-size: clamp(20px, 20vw, 20px);
 
 }
 
@@ -188,14 +187,15 @@ body {
 @keyframes txt-app {
     100% {
         color: #353535;
-        font-size: 6px;
+        font-size: 5px;
     }
 }
 
 @keyframes txt {
     100% {
         color: #ffffff;
-        padding: 10px 0;
+        padding: 0px 50px 0 0;
+        
     }
 }
 
@@ -235,6 +235,7 @@ video {
     background: #1e1e1e51;
     width: 100%;
     color: white;
+    text-align: center;
 }
 
 .feat {
@@ -246,6 +247,11 @@ video {
 
 .feat img {
     width: 40px;
+
+}
+.feat p {
+    color: #58595c;
+    font-size: 12px;
 
 }
 
@@ -924,22 +930,31 @@ footer {
 
     .feature {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 20px 30px;
         background: #1e1e1e51;
         width: 100%;
         color: white;
+        align-items: center;
+        text-align: center;
     }
 
     .feat {
-        padding: 0 10px;
-        border-left: #ffffff solid 1px;
+        padding: 10px 10px;
+        border-bottom: #ffffff solid 1px;
+        border-left: none;
     }
 
 
 
     .feat img {
-        width: 20px;
+        width: 80px;
+
+    }
+
+    .feat p {
+        color: #58595c;
+        font-size: 14px;
 
     }
 
